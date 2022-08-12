@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+    header h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+    header h3 {
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    padding-top: 0px;
+}
+
+header {
+    padding: 30px;
+    background-color: rgb(1, 124, 143);
+    background-attachment:fixed;
+}
+
+h2 {
+    padding:0px;
+}
+
+
+footer, nav {
+    background-color: #333;
+    overflow: hidden;
+    display:flex; 
+}
+
+footer a, nav a {
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+main {
+    background-color: white;
+    text-align: center;
+}
+
+h2 {
+    padding: 20px;
+}
+
+section:nth-child(even) {
+    background-color: rgb(241, 241, 241);
+}
+
+section {
+    min-height: 100vh;
+}
+
+video {
+    padding: 10px;
+}
+
+iframe {
+    height: 75vh;
+}
+
+img {
+    padding: 10px;
+}
+
+.flex-align-right {
+    margin-left:auto;
+}
+
+.menu-btn:hover {
+    background-color:whitesmoke;
+    color:black;
+}
+
+section h2 span {
+    background:linear-gradient(to right, #017C8E, #2b9cad);
+    padding: 10px 55px;
+    border-radius: 20px;
+    color:white;
+}
+
+ul span {
+    background:linear-gradient(to right, #017C8E, #2b9cad);
+    padding: 10px;
+    border-radius: 20px;
+    color:white;
+    
+}
+
+.header img {
+  float: right;
+  width: 130px;
+  height: 125px;
+}
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+
+.education{
+    padding: 10px 55px;
+    border-radius: 20px;
+    text-align:left;
+}
+
+.margin_left{
+    margin-left:5px;
+}
+.column{
+    text-align:center;
+    float: left;
+    width: 25%;
+    text
+}
+.no-bullets{
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.profile_img {
+    border-radius:60%;
+}
+
+.profile_name {
+    font-size: 2em;
+    font-weight: 900;
+    font-family:Courier New;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    text-transform:uppercase;
+    margin: 0px 0px -10px 0px;
+}
+
+.sm-handle a i{
+    margin:5px;
+}
+
+.linkedin-h {
+    color:#0A66C2;
+}
+
+.instagram-h {
+    color:#dd2a7b;
+}
+
+.facebook-h {
+    color:#4267B2;
+}
+
+.about_us {
+    margin:50px
+}
+
+.about_content {
+
+    text-align:center;
+    text-justify:inter-cluster;
+    color: #1c1a3a;
+    font-weight: 800;
+    font-size:0.90em;
+    padding-bottom: 10px 0px 20px 0px;
+}
+/*
+.banner {
+    background-image:url(assets/wallpaper1.jpg);
+    height: 20vw;
+    min-height:100px;
+    background-repeat: no-repeat;
+    background-position:top center;
+    background-attachment:fixed;
+
+}*/
+
+@media screen and (max-width:600px) {
+    nav {
+        flex-direction:column;
+     }
+
+    .flex-align-right {
+         margin-left:0;
+     }
+
+    .column {
+    width: 100%;
+  }
+
+}

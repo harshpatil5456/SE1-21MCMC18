@@ -45,6 +45,12 @@ footer a, nav a {
     color: white;
 }
 
+a {
+    text-decoration: none;
+    font-weight:500;
+    color: white;
+}
+
 main {
     background-color: white;
     text-align: center;
